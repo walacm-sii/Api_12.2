@@ -1,0 +1,11 @@
+default environment: test
+
+basic configuration:
+  appid: 89a2ed8a594cc497a6273490e7ca59dd
+
+environments:
+  - env name: test
+    web url: https://api.openweathermap.org/data/2.5/
+    weather part: weather
+    forecast part: forecast
+
